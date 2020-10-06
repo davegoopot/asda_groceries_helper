@@ -1,0 +1,11 @@
+{
+    "name": "ASDA Groceries Helper",
+    "manifest_version": 2,
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://groceries.asda.com//*"],
+            "js": ["asda.js"]
+        }
+    ],
+}
