@@ -7,5 +7,5 @@
             "matches": ["https://groceries.asda.com//*"],
             "js": ["asda.js"]
         }
-    ],
+    ]
 }
