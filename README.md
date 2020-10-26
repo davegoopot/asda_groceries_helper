@@ -10,4 +10,4 @@ After installing this add-on the following shortcut keys will be available in yo
 
 | Shortcut Key | Action |
 | :-----------: | :------: |
-| CTRL-Q        | Focus the window on the search box
+| CTRL-Y        | Focus the window on the search box
