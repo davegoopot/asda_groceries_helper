@@ -11,3 +11,4 @@ After installing this add-on the following shortcut keys will be available in yo
 | Shortcut Key | Action |
 | :-----------: | :------: |
 | CTRL-Y        | Focus the window on the search box
+| CTRL-SHIFT-U  | Search for whatever is currently in the clipboard
