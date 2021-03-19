@@ -1,4 +1,12 @@
 window.addEventListener("keydown", event => {
+    var store;
+    if (location.href.startsWith("https://groceries.morrisons.com/")) {
+        store = "Morrisons"
+    } else if (location.href.startsWith("https://groceries.asda.com/")) {
+        store = "ASDA"
+    } else {
+        throw new Error(`Running on unsupported location: ${location.href} `);
+    }
 
     if (event.ctrlKey && event.code === "KeyY") { // Focus on the search box
         const search_box = document.getElementById("search")
